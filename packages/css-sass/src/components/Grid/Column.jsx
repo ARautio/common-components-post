@@ -1,10 +1,24 @@
 import React from 'react'
-import { number } from 'prop-types'
+import { number, oneOfType, arrayOf, node } from 'prop-types'
 import classnames from 'classnames'
 import './Column.scss'
 
+/**
+ * Grid column which handles single column of the grid
+ *
+ * @component
+ * @example
+ * return (
+ *   <Grid.Column grid={10}>Grid</Grid.Column>
+ * )
+ **/
+
 const propTypes = {
-  grid: number
+  /**
+   * Size of the grid. The grid in this case is splitted in to 12 parts.
+   */
+  grid: number,
+  children: oneOfType([arrayOf(node), node]).isRequired
 }
 
 const defaultProps = {

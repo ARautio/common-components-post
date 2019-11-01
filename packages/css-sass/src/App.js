@@ -3,6 +3,9 @@ import React from 'react'
 import { Heading1, BodyText } from '~/components/Typography'
 import * as Grid from '~/components/Grid'
 
+/**
+ * This is an example from app component how to use the common components
+ */
 const App = () => (
   <Grid.Container>
     <Grid.Column grid={12}>
