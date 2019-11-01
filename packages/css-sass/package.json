@@ -9,18 +9,14 @@
   "author": "Aki Rautio <aki.rautio@gmail.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/css-sass.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
+  "main": "src/index.js",
   "files": [
     "lib"
   ],
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "jest"
   },
   "dependencies": {
     "classnames": "^2.2.6",
@@ -30,8 +26,21 @@
     "src": "^1.1.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "jest-transform-stub": "^2.0.0",
     "parcel-bundler": "^1.12.4",
     "prop-types": "^15.7.2",
+    "react-test-renderer": "^16.11.0",
     "sass": "^1.23.3"
+  },
+  "jest": {
+    "transform": {
+      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
+      "^.+\\.(js|jsx)$": "babel-jest"
+    }
   }
 }

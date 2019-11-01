@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography BodyText Base component works correctly 1`] = `
+<p
+  className="text text--bodytext text--align-undefined"
+>
+  Container
+</p>
+`;
+
+exports[`Typography BodyText Text align works with left, center and right 1`] = `
+<p
+  className="text text--bodytext text--align-left"
+>
+  Left aligned
+</p>
+`;
+
+exports[`Typography BodyText Text align works with left, center and right 2`] = `
+<p
+  className="text text--bodytext text--align-center"
+>
+  Cener aligned
+</p>
+`;
+
+exports[`Typography BodyText Text align works with left, center and right 3`] = `
+<p
+  className="text text--bodytext text--align-right"
+>
+  Right aligned
+</p>
+`;
+
+exports[`Typography Heading1 Base component works correctly 1`] = `
+<h1
+  className="text heading1 text--align-undefined"
+>
+  Column
+</h1>
+`;
+
+exports[`Typography Heading1 Text align works with left, center and right  1`] = `
+<h1
+  className="text heading1 text--align-left"
+>
+  Left align
+</h1>
+`;
+
+exports[`Typography Heading1 Text align works with left, center and right  2`] = `
+<h1
+  className="text heading1 text--align-center"
+>
+  Center align
+</h1>
+`;
+
+exports[`Typography Heading1 Text align works with left, center and right  3`] = `
+<h1
+  className="text heading1 text--align-right"
+>
+  Right align
+</h1>
+`;
