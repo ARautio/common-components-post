@@ -1,42 +1,44 @@
 {
-  "name": "css-sass",
+  "name": "css-in-js",
   "version": "1.0.0",
-  "description": "CSS and SASS examples to create common components",
+  "description": "JSS and Styled component examples to  create common components",
   "keywords": [
     "CSS",
-    "SASS"
+    "JSS",
+    "CSS-in-JS",
+    "StyledComponents"
   ],
   "author": "Aki Rautio <aki.rautio@gmail.com>",
   "homepage": "https://akirautio.com",
   "license": "ISC",
-  "main": "src/index.js",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARautio/common-components-post.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ARautio/common-components-post/issues"
+  },
   "dependencies": {
-    "classnames": "^2.2.6",
-    "components": "^0.1.0",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "src": "^1.1.2"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-jss": "^10.0.0",
+    "styled-components": "^4.4.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0",
-    "jest-transform-stub": "^2.0.0",
     "parcel-bundler": "^1.12.4",
-    "prop-types": "^15.7.2",
-    "react-test-renderer": "^16.11.0",
-    "sass": "^1.23.3"
+    "react-test-renderer": "^16.12.0"
   },
   "jest": {
     "transform": {
-      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
       "^.+\\.(js|jsx)$": "babel-jest"
     }
   }
