@@ -1,0 +1,46 @@
+{
+  "name": "document-and-test",
+  "version": "1.0.0",
+  "description": "Document and test common components",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARautio/common-components-post.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ARautio/common-components-post/issues"
+  },
+  "author": "Aki Rautio <aki.rautio@gmail.com>",
+  "homepage": "https://akirautio.com",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addon-storyshots": "^5.3.19",
+    "@storybook/addon-storyshots-puppeteer": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-jest": "^26.1.0",
+    "babel-loader": "^8.1.0",
+    "jest": "^25.1.0",
+    "puppeteer": "^5.2.1",
+    "react-test-renderer": "^16.13.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(js|jsx)$": "babel-jest"
+    }
+  }
+}
