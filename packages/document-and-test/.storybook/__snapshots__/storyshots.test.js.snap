@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Accordion Accordion Down 1`] = `
+Array [
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "blue",
+        "cursor": "pointer",
+        "margin": "2px",
+        "padding": "12px",
+      }
+    }
+  >
+    <div>
+      First
+    </div>
+  </div>,
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "blue",
+        "cursor": "pointer",
+        "margin": "2px",
+        "padding": "12px",
+      }
+    }
+  >
+    <div>
+      Second
+    </div>
+  </div>,
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "blue",
+        "cursor": "pointer",
+        "margin": "2px",
+        "padding": "12px",
+      }
+    }
+  >
+    <div>
+      Third
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Accordion Accordion Dynamic 1`] = `
+Array [
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "red",
+        "cursor": "pointer",
+        "margin": "2px",
+        "padding": "12px",
+      }
+    }
+  >
+    <div>
+      First
+    </div>
+  </div>,
+  <div>
+    Expanded
+  </div>,
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "blue",
+        "cursor": "pointer",
+        "margin": "2px",
+        "padding": "12px",
+      }
+    }
+  >
+    <div>
+      Second
+    </div>
+  </div>,
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "blue",
+        "cursor": "pointer",
+        "margin": "2px",
+        "padding": "12px",
+      }
+    }
+  >
+    <div>
+      Third
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Accordion Accordion Selectected 1`] = `
+Array [
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "blue",
+        "cursor": "pointer",
+        "margin": "2px",
+        "padding": "12px",
+      }
+    }
+  >
+    <div>
+      First
+    </div>
+  </div>,
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "red",
+        "cursor": "pointer",
+        "margin": "2px",
+        "padding": "12px",
+      }
+    }
+  >
+    <div>
+      Second
+    </div>
+  </div>,
+  <div>
+    Expanded
+  </div>,
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "blue",
+        "cursor": "pointer",
+        "margin": "2px",
+        "padding": "12px",
+      }
+    }
+  >
+    <div>
+      Third
+    </div>
+  </div>,
+]
+`;
