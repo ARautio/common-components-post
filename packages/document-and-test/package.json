@@ -1,14 +1,22 @@
 {
   "name": "document-and-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "Document and test common components",
   "main": "index.js",
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "test": "jest"
   },
-  "author": "Aki Rautio",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARautio/common-components-post.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ARautio/common-components-post/issues"
+  },
+  "author": "Aki Rautio <aki.rautio@gmail.com>",
+  "homepage": "https://akirautio.com",
   "license": "ISC",
   "dependencies": {
     "framer-motion": "^2.1.0",
