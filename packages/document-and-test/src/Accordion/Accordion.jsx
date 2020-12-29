@@ -10,13 +10,14 @@ const Accordion = ({ index, expanded, setExpanded, children }) => {
           padding: '12px',
           margin: '2px',
           cursor: 'pointer',
-          backgroundColor: isOpen ? 'red' : 'blue',
+          backgroundColor: isOpen ? '#5BE6C3' : 'white',
+          borderRadius: '6px',
         }}
         onClick={() => setExpanded(isOpen ? false : index)}
       >
         {children}
       </div>
-      {isOpen ? <div>Expanded</div> : null}
+      {isOpen ? <div style={{ padding: '6px' }}>Expanded</div> : null}
     </React.Fragment>
   )
 }

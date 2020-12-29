@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid Column Base component works correctly 1`] = `
+<div
+  className="grid grid--column grid--column--grid-1"
+>
+  Column
+</div>
+`;
+
+exports[`Grid Column Grids are working 1`] = `
+<div
+  className="grid grid--column grid--column--grid-6"
+>
+  6 Grid Column
+</div>
+`;
+
+exports[`Grid Container Base component works correctly 1`] = `
+<div
+  className="grid grid--container"
+>
+  Container
+</div>
+`;

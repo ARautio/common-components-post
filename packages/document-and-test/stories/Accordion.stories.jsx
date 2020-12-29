@@ -4,7 +4,7 @@ import Accordion from '../src/Accordion/Accordion'
 
 export default { title: 'Accordion' }
 
-export const AccordionDown = () => {
+export const AccordionsClosed = () => {
   return ['First', 'Second', 'Third'].map((item, index) => (
     <Accordion key={index} index={index} expanded={false}>
       <div>{item}</div>
@@ -12,7 +12,7 @@ export const AccordionDown = () => {
   ))
 }
 
-export const AccordionSelectected = () => {
+export const AccordionSelected = () => {
   return ['First', 'Second', 'Third'].map((item, index) => (
     <Accordion key={index} index={index} expanded={1}>
       <div>{item}</div>
