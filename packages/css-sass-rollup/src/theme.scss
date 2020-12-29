@@ -1,0 +1,15 @@
+/**
+ * Theme file
+ * 
+ * Here we define all the common variables to have an overview from the key 
+ * properties. Even though in a small application it may not make sense to have
+ * these separated, it helps a lot if the same components would be later shared
+ * between applications.
+**/
+$fontSizeHeading1: 22px !default;
+$fontWeightHeading1: 800 !default;
+
+$fontSizeBodyText: 16px !default;
+$fontWeightBodyText: 300 !default;
+
+$colorPrimary: #0e0e0e !default;

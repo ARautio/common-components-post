@@ -1,0 +1,29 @@
+@import './src/theme.scss'; // We import the main theme file in here to get access the variables.
+
+.text {
+  line-height: 1.5;
+}
+
+.text--align-left {
+  text-align: right;
+}
+
+.text--align-right {
+  text-align: right;
+}
+
+.text--align-center {
+  text-align: center;
+}
+
+.text--heading1 {
+  font-size: $fontSizeHeading1;
+  font-weight: $fontWeightHeading1;
+  color: $colorPrimary;
+}
+
+.text--bodytext {
+  font-size: $fontSizeBodyText;
+  font-weight: $fontWeightBodyText;
+  color: $colorPrimary;
+}

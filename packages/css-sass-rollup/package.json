@@ -1,0 +1,61 @@
+{
+  "name": "componentlibrary-css-sass-rollup",
+  "version": "1.0.0",
+  "description": "This is an example component library with css and sass and bundled with rollup",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "CSS",
+    "SASS",
+    "Component library"
+  ],
+  "homepage": "https://akirautio.com",
+  "author": "Aki Rautio",
+  "private": false,
+  "license": "ISC",
+  "scripts": {
+    "build": "rimraf ./dist && rollup -c",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "prop-types": ">=15.7.2",
+    "react": ">=17.0.1",
+    "react-dom": ">=17.0.1",
+    "classnames": "^2.2.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/runtime": "^7.12.5",
+    "@rollup/plugin-babel": "^5.2.2",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "babel-jest": "^26.6.3",
+    "classnames": "^2.2.6",
+    "jest": "^26.6.3",
+    "jest-transform-stub": "^2.0.0",
+    "postcss": "^8.2.1",
+    "prop-types": ">=15.7.2",
+    "react": ">=17.0.1",
+    "react-test-renderer": "^17.0.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.35.1",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.0",
+    "sass": "^1.30.0"
+  },
+  "jest": {
+    "transform": {
+      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
+      "^.+\\.(js|jsx)$": "babel-jest"
+    },
+    "rootDir": "./src"
+  }
+}
