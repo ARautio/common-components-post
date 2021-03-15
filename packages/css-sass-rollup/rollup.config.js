@@ -1,32 +1,33 @@
-import peerDepsExternal from 'rollup-plugin-peer-deps-external'
-import resolve from '@rollup/plugin-node-resolve'
-import babel from '@rollup/plugin-babel'
-import postcss from 'rollup-plugin-postcss'
-import copy from 'rollup-plugin-copy'
+import peerDepsExternal from "rollup-plugin-peer-deps-external";
+import resolve from "@rollup/plugin-node-resolve";
+import babel from "@rollup/plugin-babel";
+import postcss from "rollup-plugin-postcss";
+import copy from "rollup-plugin-copy";
 
-const packageJson = require('./package.json')
+const packageJson = require("./package.json");
 
 export default {
-  input: 'src/index.js',
+  input: "src/index.js",
   output: [
     {
       file: packageJson.main,
-      format: 'cjs',
+      format: "cjs",
       sourcemap: true,
     },
     {
       file: packageJson.module,
-      format: 'esm',
+      format: "esm",
       sourcemap: true,
     },
   ],
   plugins: [
     copy({
       targets: [
-        { src: 'src/theme.scss*', dest: 'dist/' },
+        { src: "src/theme.scss*", dest: "dist/" },
+        { src: "src/components.scss*", dest: "dist/" },
         {
-          src: ['src/components/**/*', '!**/*.spec.*'],
-          dest: 'dist/components',
+          src: ["src/components/**/*", "!**/*.spec.*"],
+          dest: "dist",
         },
       ],
       verbose: true,
@@ -34,15 +35,15 @@ export default {
     }),
     peerDepsExternal(),
     resolve({
-      extensions: ['.js', '.jsx'],
+      extensions: [".js", ".jsx"],
     }),
     postcss({
       extract: true,
-      extensions: ['.scss'],
+      extensions: [".scss"],
     }),
     babel({
-      babelHelpers: 'runtime',
-      exclude: 'node_modules/**',
+      babelHelpers: "runtime",
+      exclude: "node_modules/**",
     }),
   ],
-}
+};
