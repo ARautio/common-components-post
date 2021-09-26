@@ -1,6 +1,6 @@
 {
   "name": "componentlibrary-css-sass-rollup",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is an example component library with css and sass and bundled with rollup",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
