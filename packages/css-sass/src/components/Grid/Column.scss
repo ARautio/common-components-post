@@ -1,5 +1,7 @@
+@use "sass:math";
+
 @for $i from 1 through 12 {
   .grid--column--grid-#{$i} {
-    width: ($i / 12) * 100%;
+    width: math.div($i, 12) * 100%;
   }
 }
