@@ -2,7 +2,7 @@
 
 exports[`Grid Column Base component works correctly 1`] = `
 <div
-  className="sc-bdVaJa dFiHBb"
+  className="sc-bdfBQB iVGUQd"
 >
   Column
 </div>
@@ -10,7 +10,7 @@ exports[`Grid Column Base component works correctly 1`] = `
 
 exports[`Grid Column Grids are working 1`] = `
 <div
-  className="sc-bdVaJa fgQBgM"
+  className="sc-bdfBQB ggzPQY"
 >
   6 Grid Column
 </div>
