@@ -34,7 +34,7 @@ exports[`Typography BodyText Text align works with left, center and right 3`] = 
 
 exports[`Typography Heading1 Base component works correctly 1`] = `
 <h1
-  className="text heading1 text--align-undefined"
+  className="text text--heading1 text--align-undefined"
 >
   Column
 </h1>
@@ -42,7 +42,7 @@ exports[`Typography Heading1 Base component works correctly 1`] = `
 
 exports[`Typography Heading1 Text align works with left, center and right  1`] = `
 <h1
-  className="text heading1 text--align-left"
+  className="text text--heading1 text--align-left"
 >
   Left align
 </h1>
@@ -50,7 +50,7 @@ exports[`Typography Heading1 Text align works with left, center and right  1`] =
 
 exports[`Typography Heading1 Text align works with left, center and right  2`] = `
 <h1
-  className="text heading1 text--align-center"
+  className="text text--heading1 text--align-center"
 >
   Center align
 </h1>
@@ -58,7 +58,7 @@ exports[`Typography Heading1 Text align works with left, center and right  2`] =
 
 exports[`Typography Heading1 Text align works with left, center and right  3`] = `
 <h1
-  className="text heading1 text--align-right"
+  className="text text--heading1 text--align-right"
 >
   Right align
 </h1>
